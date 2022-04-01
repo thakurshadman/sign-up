@@ -13,10 +13,15 @@ span{
     background-color: transparent;
 }
 .splash-img{
-
+    padding: 0 10px;
     background-image: url("assets/splash.jpg");
     background-repeat: no-repeat;
-    width: 35vw;
+    width: 40vw;
     height: 100vh;
     background-position: 48% 1% ;
+}
+
+#speech{
+    margin: 30px 30px;
+    gap: 15px;
 }
