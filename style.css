@@ -18,7 +18,7 @@ body{
     flex-basis: 35vw;
     background-color: black;
     background-image: url(assets/splash.jpg);
-    background-position: 940px 0px;
+    background-position: 48% 0px;
 }
 .logo,.logo>span{
     background-color: transparent;
@@ -26,5 +26,12 @@ body{
 }
 
 .sign-up{
-flex-basis: 65vw;
+    flex-basis: 65vw;
+    overflow: scroll;
+}
+button{
+    margin-top: 20px;
+    align-self: center;
+    width: 200px;
+    height: 50px;
 }
