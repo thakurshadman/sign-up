@@ -1,0 +1,32 @@
+
+:root{
+    --textColor:#fedfca;
+    --accentColor: #cf534f;
+}
+header{
+    padding: 0 35px 0 20px;
+    background-color: black;
+    color: var(--textColor)
+}
+
+img.logo{
+    width: clamp(60px, 8vw, 75px)
+}
+
+span{
+    color: var(--accentColor);
+}
+
+.nav-links{
+    list-style-type: none;
+    gap: 35px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+.sign-up{
+    overflow: scroll;
+}

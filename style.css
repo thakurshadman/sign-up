@@ -9,43 +9,21 @@
 span{
     color: red;
 }
-.splash-img>h1,span{
+
+.container{
+    height: 100vh;
+    width: 100vh
+}
+.hero{
+    background-color: black;
+    background-image: url(assets/splash.jpg);
+    background-position: 850px 0px;
+}
+.logo,.logo>span{
     background-color: transparent;
 }
-.splash-img{
-    flex-shrink: 0;
-    background-image: url("assets/splash.jpg");
-    background-repeat: no-repeat;
-    width: 30vw;
-    min-height: 100vh;
-    background-position: 48% 1% ;
-}
 
-.splash >.col{
-    gap: 10%;
-}
+.sign-up{
+    width: 60vw;
 
-#speech{
-    margin: 30px 30px;
-    gap: 15px;
-}
-
-form.div{
-    width: 100%;
-}
-
-input{
-    width: 325px;
-}
-
-form{gap: 15vh;}
-
-button{
-    width: 25%;
-    height: 50px;
-    margin: 0 25vw;
-}
-
-form:last-child>div{
-    gap: 15px;
 }
