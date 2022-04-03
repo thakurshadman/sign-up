@@ -19,11 +19,14 @@ body{
     background-color: black;
     background-image: url(assets/splash.jpg);
     background-position: 48% 0px;
+    margin: 0 30px 0 0;
+
 }
 .logo,.logo>span{
     background-color: transparent;
     text-align: center;
 }
+
 
 .sign-up{
     flex-basis: 65vw;
@@ -34,4 +37,15 @@ button{
     align-self: center;
     width: 200px;
     height: 50px;
+}
+
+input{
+    width: max(11vw, 22vw)
+}
+#form-inputs{
+    gap: 100px;
+}
+
+form{
+    margin-top: 20vh;
 }
